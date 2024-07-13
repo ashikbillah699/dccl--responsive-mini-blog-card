@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1280px;
+    height: 600px;
+    background-color: #FAFAF9;
+    padding-top: 12%;
+}
+
+.card_2{
+    width: 370px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+
+.card{
+    
+    padding: 20px;
+}
+
+.card img{
+    width: 333px;
+    height: 150Px;
+    border-radius: 10px;
+}
+
+.card small{
+    display: inline-block; 
+     color: #883AE1;
+    background-color: #E6D6FC;
+    padding: 2px 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.card h3{
+    color: #20293A;
+}
+
+.card p{
+    color: #6C727F;
+    margin: 0;
+}
+
+
+.card hr{
+    color: #6C727F;
+    display: block;
+}
+
+span{
+    display: inline-block !important; 
+     color: #6C727F !important;
+     padding: 20px;
+     font-size: 14px;
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        width: 640px;
+    }
+}
